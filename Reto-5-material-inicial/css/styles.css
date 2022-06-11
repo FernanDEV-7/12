@@ -1,0 +1,149 @@
+/*
+Colores
+  dark-purple: hsl(300, 43%, 22%)
+  pink:hsl(333, 80%, 67%)
+  purple: hsl(303, 10%, 53%)
+  soft-white: hsl(300, 24%, 96%)
+  background-color: hsl(0, 0%, 90%);
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    width: 1400px;
+    margin: 3em auto;
+    /* height: 400px; */
+    background-color:hsl(0, 0%, 90%); 
+}
+
+.bg-img{
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-img--top{
+  top: 0;
+  left: 0;
+}
+
+.bg-img--bot{
+  bottom: 0;
+  right: 0;
+}
+
+.header,
+.aside{
+  display: inline-block;
+  width: 450px;
+  /* padding-top: 1em; */
+  /* si hubiera sido un aside como si fuera un div, al llenarse ese espacio, ese width, como es un elemento de linea, lo que sobra saltaba al siguiente espacio y por eso salia hacia abajo los elementos */
+}
+
+.header{
+  margin-right: 300px;
+  margin-bottom: 5em;
+}
+
+.main__title{
+  font-size: 2.5rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.main__subtitle{
+  color:hsl(303, 10%, 53%);
+}
+
+.rate{
+  position: relative;
+  background-color:hsl(300, 24%, 96%);
+  line-height: 5;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  padding: 0 2em;
+}
+
+.rate__text{
+  color: hsl(303, 10%, 53%);
+}
+
+.rate--second{
+  left: 50px;
+}
+
+.rate--third{
+  left: 100px;
+}
+
+.star{
+  vertical-align: middle;
+}
+
+.rate__text{
+  margin-left: 0.5em;
+}
+
+.testimonios{
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  margin-right: 50px;
+  color:hsl(300, 24%, 96%) ; 
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 2em 2.5em;
+}
+
+.user__info,
+.user__img{
+  vertical-align: middle;
+  display: inline-block;
+  
+}
+
+
+.usuario--second{
+  top: 50px;
+}
+
+.usuario--third{
+  top: 100px;
+}
+
+.user__category{
+  color:hsl(333, 80%, 67%) ;
+}
+
+.user__name,
+.user__category{
+  margin: 0.5em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.user__img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

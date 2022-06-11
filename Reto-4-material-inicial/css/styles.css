@@ -1,0 +1,145 @@
+/*
+Colores
+  cyan: hsl(179, 62%, 43%)
+  lime: hsl(71, 73%, 54%)
+  grey: hsl(204, 43%, 93%)
+  light-blue: hsl(218, 22%, 67%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #333;
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.container{
+  position: relative;
+  width: 700px;
+  height: 450px;
+  background-color: rgb(103, 108, 111);
+  margin: 100px auto;
+  /* padding: 1em 2em; */
+  text-align: left;
+}
+
+.header{
+  padding: 0.5em 1em;
+}
+
+.container__title,
+.container__subtitle,
+.description{
+    margin: 0;
+    padding: 4px;
+}
+
+/* .description{
+  font-weight: 200;
+  font-size: 2rem;
+} */
+
+
+
+
+
+.container__top{
+  position: absolute;
+  background-color: rgb(49, 45, 45);
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  background-color: hsl(0 0% 100% / 0.9);
+  margin: 0;
+  padding: 4px;
+
+
+}
+
+.container__left{
+  background-color:hsl(179, 62%, 43%);
+  position: absolute;
+  left: 0;
+  top: 225px;
+  width: 50%;
+  height: 50%;
+  margin: 0;
+}
+
+.container__right{ 
+  text-align: left;
+  background-color:hsl(179 62% 33%);
+  position: absolute;
+  right: 0;
+  width: 50%;
+  top: 225px;
+  margin: 0;
+  height: 50%;
+
+}
+
+.text-big{
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.text-medium{
+  font-size: 1.7rem;
+}
+
+.text-extra-big{
+  font-size: 3rem;
+  margin: 0;
+}
+
+.text-normal{
+  font-size: 1rem;
+  margin: 0;
+}
+
+.text-cyan{
+  color: hsl(179, 62%, 43%);
+}
+
+.text-lime{
+  color: hsl(71, 73%, 54%);
+}
+
+.text-grey{
+  color: hsl(204, 6%, 31%);
+}
+
+
+.button{
+  display: inline-block;
+  position:absolute;
+  color: inherit;
+  padding: 0.5em;
+  margin: 1em;
+  background-color:hsl(71, 73%, 54%) ;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 0.1);
+  /* para las sombras es preferible usar rgb 0 0 0 y 0.1 */
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.list{
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  font-weight: 200;
+}
